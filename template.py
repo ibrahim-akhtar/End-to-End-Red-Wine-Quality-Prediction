@@ -57,3 +57,8 @@ for filepath in list_of_files:
         logging.info(f"{filename} already exists!")
 
 # run command -> python template.py -> to execute this code and create the above files
+
+# to commit changes in the github
+# git add .
+# git commit -m "folder structure added"
+# git push origin main
