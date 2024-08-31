@@ -33,6 +33,8 @@ python app.py
 
 and then open your local host and port...
 
+---
+
 ## Workflow
 
 1. update config.yaml
