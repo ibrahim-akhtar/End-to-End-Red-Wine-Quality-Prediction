@@ -1,0 +1,10 @@
+# data ingestion related configuration
+
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/ibrahim-akhtar/End-to-End-Red-Wine-Quality-Prediction/raw/main/WinQualityZipFile.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
