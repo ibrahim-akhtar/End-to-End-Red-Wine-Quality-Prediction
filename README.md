@@ -26,8 +26,8 @@ Requirement installation command:
 pip install -r requirements.txt
 ```
 
+**Finally run the following command**
 ```
-# Finally run the following command
 python app.py
 ```
 
@@ -46,3 +46,11 @@ and then open your local host and port...
 7. update the pipeline
 8. update the main.py
 9. update the app.py
+
+---
+
+### Tasks Performed
+
+1. Data Ingestion
+2. Data Validation
+3. 

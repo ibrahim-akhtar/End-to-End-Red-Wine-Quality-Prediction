@@ -1,5 +1,6 @@
 from ml_project import logger
 from ml_project.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from ml_project.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 
 # same code from the above file
 STAGE_NAME = "Data Ingestion Stage"
@@ -15,6 +16,16 @@ except Exception as e:
     raise e
 
 
+STAGE_NAME = "Data Validation Stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = DataValidationTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
 # delete artifacts folder & logs folder
-# run the follwing command in the terminal
+# run the following command in the terminal
 # python main.py
