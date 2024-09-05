@@ -55,3 +55,4 @@ and then open your local host and port...
 2. Data Validation - to check the schema of the data
 3. Data Transformation - can perform EDA, Feature Engineering, PCA, Scaling tasks, etc
 4. Model Trainer
+5. Model Evaluation
