@@ -49,8 +49,9 @@ and then open your local host and port...
 
 ---
 
-### Tasks Performed
+### Tasks Performed/ Components added
 
 1. Data Ingestion
-2. Data Validation
-3. Data Transformation
+2. Data Validation - to check the schema of the data
+3. Data Transformation - can perform EDA, Feature Engineering, PCA, Scaling tasks, etc
+4. Model Trainer
